@@ -1,9 +1,9 @@
-all: limpa ex12
+all: limpa ex13
 
 limpa:
-	rm -f ex12
+	rm -f ex13
 
-exs: ex1 ex3 ex4 ex5 ex6 ex7 ex8 ex9 ex10 ex11 ex 12
+exs: ex1 ex3 ex4 ex5 ex6 ex7 ex8 ex9 ex10 ex11 ex12 ex13
 CFLAGS=-Wall -g
 clean:
 	rm -f ex1 
@@ -17,3 +17,4 @@ clean:
 	rm -f ex10
 	rm -f ex11
 	rm -f ex12
+	rm -f ex13
